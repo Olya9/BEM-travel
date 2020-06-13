@@ -1,0 +1,22 @@
+.content-subtitle_offset {
+  margin: 0 auto 70px;
+}
+
+@media (max-width: 768px) {
+  .content-subtitle_offset {
+    margin: 0 auto 55px;
+  }
+}
+
+@media (max-width: 375px) {
+  .content-subtitle_offset {
+  margin: 24px auto 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content-subtitle_offset {
+  margin-top: 18px;
+  margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,35 @@
+.footer__link {
+	margin-right: 18px;
+	font-size: 24px;
+	line-height: 41px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer__link:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 933px) {
+	.footer__link {
+		font-size: 18px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer__link {
+		font-size: 16px;
+		line-height: 27px;
+	}
+}
+
+@media (max-width: 720px) {
+  .footer__link {
+    margin-right: 0;
+    font-size: 24px;
+		line-height: 41px;
+    margin-bottom: 14px;
+    display: inline-block;
+	}
+}
