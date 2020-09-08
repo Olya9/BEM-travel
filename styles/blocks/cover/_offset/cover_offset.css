@@ -1,0 +1,28 @@
+.cover_offset {
+  margin-top: 102px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .cover_offset {
+    margin-top: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover_offset {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cover_offset {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover_offset {
+    margin-top: 10px;
+  }
+}

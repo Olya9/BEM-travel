@@ -1,0 +1,27 @@
+.comments__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .comments__container {
+    width: 98%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .comments__container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    text-align: start;
+    align-items: center;
+  }  
+}

@@ -1,0 +1,52 @@
+@import url('./_theme/video-card_theme_kamchatka.css');
+@import url('./_theme/video-card_theme_observatory.css');
+@import url('./__duration/video-card__duration.css');
+@import url('./__icon-play/video-card__icon-play.css');
+@import url('./__subtitle/video-card__subtitle.css');
+@import url('./__title/video-card__title.css');
+.video-card {
+  max-width: 583px;
+  height: 323px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .video-card {
+    max-width: 456px;
+    max-height: 288px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-card {
+    max-width: 352px;
+    max-height: 200px;
+  }
+}
+
+ @media (max-width: 600px) {
+  .video-card {
+    width: 100%;
+  }
+} 
+
+@media (max-width: 375px) {
+  .video-card {
+    max-width: 343px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .video-card {
+    max-width: 288px;
+    height: 192px;
+  }
+}

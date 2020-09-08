@@ -1,0 +1,13 @@
+.place__link {
+  max-width: 484px;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-top: 0;
+}
+
+.place__link:hover {
+  color: rgb(81, 81, 184);
+  transition-duration: .5s;
+  box-shadow: 0 0 10px;
+}

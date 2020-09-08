@@ -1,0 +1,23 @@
+.place__description {
+  display: flex;
+  margin-bottom: 60px;
+  align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .place__description {
+    margin-bottom : 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__description {
+    margin-bottom : 42px;
+  }
+}
+
+@media (max-width: 375px) {
+  .place__description {
+    margin-bottom: 0;
+  }
+}
