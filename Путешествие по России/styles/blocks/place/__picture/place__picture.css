@@ -1,9 +1,0 @@
-.place__picture {
-  display: flex;
-}
-
-@media (max-width: 600px) {
-  .place__picture {
-    flex-direction: column;
-  }
-}

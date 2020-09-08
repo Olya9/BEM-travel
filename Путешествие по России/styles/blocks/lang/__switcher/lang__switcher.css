@@ -1,9 +1,0 @@
-@import url('./_active/lang__switcher_active.css');
-.lang__switcher {
-  color: white;
-  text-decoration: none;
-}
-
-.lang__switcher:hover{
-  text-decoration: underline;
-}
